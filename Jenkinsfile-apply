@@ -7,7 +7,7 @@ disableConcurrentBuilds()
   }
   agent {
 	node {
-label 'node.js'
+label 'nodejs'
 }
   }
   stages {
